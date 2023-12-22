@@ -1,0 +1,91 @@
+/* reset */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+body {
+    margin-left: 20pxpx;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-image: url("https://i.ytimg.com/vi/WKIr7If5Wow/maxresdefault.jpg");
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #333; 
+    line-height: 1.6; 
+  }
+  
+
+  h1, h2, h3, h4, p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+
+  hr {
+    margin-top: 0;
+    margin-bottom: 1em;
+    border: 1px solid #ccc; 
+  }
+  
+  img {
+    max-width: 80%; 
+    display: block;
+    margin: 0 auto; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  input, button {
+    display: flex;
+    font-family: inherit;
+    outline: none;
+    border: 1px solid #c6b3b3; 
+    padding: 10px; 
+    border-radius: 4px;
+    margin: 0 auto;
+  }
+  
+  button {
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #00bcd4;
+  }
+  
+  a {
+    color: #00bcd4; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+  }
+  
+  a:hover {
+    color: #007c91;
+  }
+  
+
+
+@media only screen and (min-device-width: 240px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 4) {
+  body { 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+  }}
